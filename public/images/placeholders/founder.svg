@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="600" viewBox="0 0 480 600">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2540"/>
+      <stop offset="100%" stop-color="#004E8C"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="white" opacity="0.14"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="600" fill="url(#g)"/>
+  <rect width="480" height="600" fill="url(#dots)"/>
+  
+          <g transform="translate(240.0,288.0)" opacity="0.18">
+            <circle cx="0" cy="-72.0" r="66.0" fill="white"/>
+            <path d="M -76.8 120.0 Q -76.8 -12.0 0 -12.0 Q 76.8 -12.0 76.8 120.0 Z" fill="white"/>
+          </g>
+  <text x="240.0" y="384.0" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="white" text-anchor="middle" opacity="0.92">REPLACE IMAGE</text>
+  <text x="240.0" y="404.0" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" opacity="0.75">founder.jpg — Saeed Akhtar</text>
+  <rect x="0.5" y="0.5" width="479" height="599" fill="none" stroke="white" stroke-opacity="0.25" stroke-width="1"/>
+</svg>

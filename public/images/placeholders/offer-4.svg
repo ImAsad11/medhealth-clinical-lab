@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2540"/>
+      <stop offset="100%" stop-color="#004E8C"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="white" opacity="0.14"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="420" fill="url(#g)"/>
+  <rect width="700" height="420" fill="url(#dots)"/>
+  
+          <g transform="translate(350.0,189.0)" opacity="0.18">
+            <rect x="-98.00000000000001" y="-37.8" width="196.00000000000003" height="84.0" rx="4" fill="white"/>
+            <circle cx="0" cy="0" r="25.2" fill="#0B2540"/>
+          </g>
+  <text x="350.0" y="268.8" font-family="Arial, sans-serif" font-size="31" font-weight="700" fill="white" text-anchor="middle" opacity="0.92">REPLACE IMAGE</text>
+  <text x="350.0" y="294.8" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" opacity="0.75">offer-4.jpg — Workplace Wellness</text>
+  <rect x="0.5" y="0.5" width="699" height="419" fill="none" stroke="white" stroke-opacity="0.25" stroke-width="1"/>
+</svg>

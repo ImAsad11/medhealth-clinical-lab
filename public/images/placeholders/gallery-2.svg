@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="560" viewBox="0 0 700 560">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ED1B24"/>
+      <stop offset="100%" stop-color="#8E0E13"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="white" opacity="0.14"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="560" fill="url(#g)"/>
+  <rect width="700" height="560" fill="url(#dots)"/>
+  
+          <g transform="translate(350.0,268.8)" opacity="0.18">
+            <circle cx="0" cy="-67.2" r="61.6" fill="white"/>
+            <path d="M -112.0 112.0 Q -112.0 -11.200000000000001 0 -11.200000000000001 Q 112.0 -11.200000000000001 112.0 112.0 Z" fill="white"/>
+          </g>
+  <text x="350.0" y="358.4" font-family="Arial, sans-serif" font-size="31" font-weight="700" fill="white" text-anchor="middle" opacity="0.92">REPLACE IMAGE</text>
+  <text x="350.0" y="384.4" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" opacity="0.75">gallery-2.jpg — sample collection</text>
+  <rect x="0.5" y="0.5" width="699" height="559" fill="none" stroke="white" stroke-opacity="0.25" stroke-width="1"/>
+</svg>

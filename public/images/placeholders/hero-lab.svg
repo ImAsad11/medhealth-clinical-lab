@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1000" viewBox="0 0 900 1000">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0065B3"/>
+      <stop offset="100%" stop-color="#0B2540"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="white" opacity="0.14"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1000" fill="url(#g)"/>
+  <rect width="900" height="1000" fill="url(#dots)"/>
+  
+          <g transform="translate(450.0,450.0)" opacity="0.16">
+            <path d="M -45.0 -180.0 L -45.0 -20.0 L -126.00000000000001 160.0 Q -144.0 200.0 -90.0 200.0 L 90.0 200.0 Q 144.0 200.0 126.00000000000001 160.0 L 45.0 -20.0 L 45.0 -180.0 Z" fill="white"/>
+          </g>
+  <text x="450.0" y="640.0" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="white" text-anchor="middle" opacity="0.92">REPLACE IMAGE</text>
+  <text x="450.0" y="671.0" font-family="Arial, sans-serif" font-size="23" fill="white" text-anchor="middle" opacity="0.75">hero-lab.jpg — lab / technician photo</text>
+  <rect x="0.5" y="0.5" width="899" height="999" fill="none" stroke="white" stroke-opacity="0.25" stroke-width="1"/>
+</svg>

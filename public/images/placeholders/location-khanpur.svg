@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004E8C"/>
+      <stop offset="100%" stop-color="#0B2540"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="white" opacity="0.14"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="480" fill="url(#g)"/>
+  <rect width="640" height="480" fill="url(#dots)"/>
+  
+          <g transform="translate(320.0,211.2)" opacity="0.18">
+            <path d="M 0 -86.39999999999999 C 76.8 -86.39999999999999 128.0 -38.4 128.0 9.6 C 128.0 67.2 0 134.4 0 134.4 C 0 134.4 -128.0 67.2 -128.0 9.6 C -128.0 -38.4 -76.8 -86.39999999999999 0 -86.39999999999999 Z" fill="white"/>
+            <circle cx="0" cy="0" r="28.799999999999997" fill="#004E8C"/>
+          </g>
+  <text x="320.0" y="307.2" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="white" text-anchor="middle" opacity="0.92">REPLACE IMAGE</text>
+  <text x="320.0" y="331.2" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" opacity="0.75">location-khanpur.jpg</text>
+  <rect x="0.5" y="0.5" width="639" height="479" fill="none" stroke="white" stroke-opacity="0.25" stroke-width="1"/>
+</svg>
