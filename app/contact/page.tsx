@@ -3,6 +3,8 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import ContactForm from "@/components/ContactForm";
 import Reveal from "@/components/Reveal";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 import { LOCATIONS, SITE } from "@/lib/site-data";
 
 export const metadata: Metadata = {
@@ -22,6 +24,12 @@ const INFO = [
 export default function ContactPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: SITE.domain },
+          { name: "Contact", url: `${SITE.domain}/contact` },
+        ])}
+      />
       <PageHero
         eyebrow="Get in touch"
         title="Book an appointment or ask us anything"

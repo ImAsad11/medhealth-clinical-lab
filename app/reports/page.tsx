@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import Reveal from "@/components/Reveal";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 import { SITE } from "@/lib/site-data";
 
 export const metadata: Metadata = {
@@ -20,6 +22,12 @@ const STEPS = [
 export default function ReportsPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: SITE.domain },
+          { name: "Get Reports", url: `${SITE.domain}/reports` },
+        ])}
+      />
       <PageHero
         eyebrow="Get your reports"
         title="Download your diagnostic report online"

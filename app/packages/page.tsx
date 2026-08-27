@@ -3,6 +3,9 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import Reveal from "@/components/Reveal";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
+import { SITE } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "Health Packages",
@@ -59,6 +62,12 @@ const PACKAGES = [
 export default function PackagesPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: SITE.domain },
+          { name: "Health Packages", url: `${SITE.domain}/packages` },
+        ])}
+      />
       <PageHero
         eyebrow="Bundled panels"
         title="Health packages built around real life stages"

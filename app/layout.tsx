@@ -63,11 +63,20 @@ export const metadata: Metadata = {
     title: "Med Health Clinical Lab | Diagnostic Excellence Across Pakistan",
     description:
       "IHRA-01452 certified diagnostic laboratory with collection points across Pakistan. Fast, accurate testing with digitally signed reports.",
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Med Health Clinical Lab — Diagnostic Excellence Across Pakistan",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Med Health Clinical Lab",
     description: "IHRA-01452 certified diagnostic laboratory with collection points across Pakistan.",
+    images: ["/images/og-image.jpg"],
   },
   robots: { index: true, follow: true },
 };

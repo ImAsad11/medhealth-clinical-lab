@@ -261,7 +261,7 @@ export default function HomePage() {
             { src: "/images/gallery/lab-interior.jpg", label: "Lab interior" },
             { src: "/images/gallery/sample-collection.jpg", label: "Sample collection" },
             { src: "/images/gallery/reception.jpg", label: "Reception / branch" },
-            { src: "/images/gallery/home-collection.png", label: "Home collection" },
+            { src: "/images/gallery/home-collection.jpg", label: "Home collection" },
           ].map((img, i) => (
             <Reveal key={img.src} direction="up" delay={i * 90}>
               <div className="relative aspect-[4/5] overflow-hidden border border-line">

@@ -3,7 +3,9 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import Reveal from "@/components/Reveal";
-import { SERVICE_CATEGORIES } from "@/lib/site-data";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
+import { SERVICE_CATEGORIES, SITE } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "Diagnostic Services",
@@ -15,6 +17,12 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: SITE.domain },
+          { name: "Services", url: `${SITE.domain}/services` },
+        ])}
+      />
       <PageHero
         eyebrow="Full test menu"
         title="Every test, one certified laboratory"

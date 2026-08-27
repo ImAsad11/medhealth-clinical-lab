@@ -4,6 +4,8 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import Reveal from "@/components/Reveal";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 import { OFFERS, SITE } from "@/lib/site-data";
 
 export const metadata: Metadata = {
@@ -16,6 +18,12 @@ export const metadata: Metadata = {
 export default function OffersPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: SITE.domain },
+          { name: "Offers", url: `${SITE.domain}/offers` },
+        ])}
+      />
       <PageHero
         eyebrow="Current offers"
         title="Preventive care shouldn't be out of reach"

@@ -3,7 +3,9 @@ import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import LocationCard from "@/components/LocationCard";
 import Reveal from "@/components/Reveal";
-import { LOCATIONS } from "@/lib/site-data";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
+import { LOCATIONS, SITE } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "Locations",
@@ -15,6 +17,12 @@ export const metadata: Metadata = {
 export default function LocationsPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: SITE.domain },
+          { name: "Locations", url: `${SITE.domain}/locations` },
+        ])}
+      />
       <PageHero
         eyebrow="Our network"
         title="Six collection points, one certified laboratory"

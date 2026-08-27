@@ -3,6 +3,8 @@ import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import Reveal from "@/components/Reveal";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 import { SITE } from "@/lib/site-data";
 
 export const metadata: Metadata = {
@@ -53,6 +55,12 @@ const CAPABILITIES = [
 export default function AboutPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: SITE.domain },
+          { name: "About Us", url: `${SITE.domain}/about` },
+        ])}
+      />
       <PageHero
         eyebrow="About Med Health"
         title="Diagnostic excellence, built for the people of Pakistan"

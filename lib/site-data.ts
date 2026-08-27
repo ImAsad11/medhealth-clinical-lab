@@ -50,7 +50,7 @@ export const LOCATIONS: Location[] = [
     isHQ: false,
     mapQuery: "Abbottabad, Khyber Pakhtunkhwa, Pakistan",
     blurb:
-      "A sample collection point serving Abbottabad, with results processed at our Islamabad laboratory.",
+      "Our Abbottabad collection point offers sample pickup for the full Med Health test menu, from routine blood work to specialised panels. Samples are couriered same-day to our Islamabad laboratory, and digitally signed reports are available online — no need to travel to the city for either step.",
   },
   {
     slug: "haripur",
@@ -59,7 +59,7 @@ export const LOCATIONS: Location[] = [
     isHQ: false,
     mapQuery: "Haripur, Khyber Pakhtunkhwa, Pakistan",
     blurb:
-      "A sample collection point serving Haripur, with results processed at our Islamabad laboratory.",
+      "Patients in Haripur can book a home sample collection or visit our local point directly, with every specimen processed on the same certified equipment used at our Islamabad head office. Reports are digitally signed and downloadable as soon as testing is complete.",
   },
   {
     slug: "khanpur",
@@ -68,7 +68,7 @@ export const LOCATIONS: Location[] = [
     isHQ: false,
     mapQuery: "Khanpur, Khyber Pakhtunkhwa, Pakistan",
     blurb:
-      "A sample collection point serving Khan Pur, with results processed at our Islamabad laboratory.",
+      "Khan Pur residents get access to Med Health's full diagnostic menu without a trip to Islamabad — samples collected locally are transported under proper cold-chain handling and tested at our accredited main laboratory, with results delivered online.",
   },
   {
     slug: "mansehra",
@@ -77,7 +77,7 @@ export const LOCATIONS: Location[] = [
     isHQ: false,
     mapQuery: "Mansehra, Khyber Pakhtunkhwa, Pakistan",
     blurb:
-      "A sample collection point serving Mansehra, with results processed at our Islamabad laboratory.",
+      "Our Mansehra collection point serves as a local touchpoint for booking and sample collection, while all testing — hematology, biochemistry, and beyond — runs through the same certified laboratory that serves our Islamabad head office.",
   },
   {
     slug: "rahim-yar-khan",
@@ -86,7 +86,7 @@ export const LOCATIONS: Location[] = [
     isHQ: false,
     mapQuery: "Rahim Yar Khan, Punjab, Pakistan",
     blurb:
-      "A sample collection point serving Rahim Yar Khan, with results processed at our Islamabad laboratory.",
+      "In Punjab's Rahim Yar Khan, our collection point handles sample pickup for patients and referring clinicians alike, with specimens forwarded to our Islamabad laboratory for testing and digitally signed reports made available for download shortly after.",
   },
 ];
 
