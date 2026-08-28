@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Med Health Clinical Lab",
   shortName: "MHCL",
-  domain: "https://medhealthlab.online",
+  domain: "https://www.medhealthlab.online",
   phone: "+92 319 781 0761",
   phoneHref: "tel:+923197810761",
   whatsappNumber: "+923197810761",
